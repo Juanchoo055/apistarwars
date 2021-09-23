@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Api StarWars</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../static/apistarwars/CSS/style.css">
+    <link rel="stylesheet" href="../../static/apistarwars/CSS/tablet.css" media="(min-width: 930px)">
+</head>
+
+<body>
+    <header>
+        <a href=""><img src="../../static/apistarwars/img/logostar.png" alt=""></a>
+        <div class="header--title-container">
+            <h1>Bienvenido al universo de Star Wars</h1>
+            <p>Aquí podrás averiguar sobre tus personajes y peliculas favoritos</p>
+            <a href="admin/" class="header--button">Administrador<span></span></a>    
+        </div>
+    </header>
+    <main>
+        <section class="bebe-image-container">
+            
+            <h1>Para acceder al administrador el usuario es: pruebas2 y la contraseña es: pruebas123456</h1>
+            
+        </section>
+
+        <section class="main-api-container">
+            <div class="backgroundimg"></div>
+            <h2>Encuentra la URL de la Api aquí</h2>
+        </section>
+        
+        
+        
+        <section class="main-tables-container">
+        
+        <section class="urls-tables-container">
+
+        <!-- /*Primera tabla personajes*/ -->
+        <article class="api-urls--card">
+            <div class="main-personaje-table">
+                <p class="personaje-table--title">Personajes</p>
+                <div class="personaje-table-container">
+                    <table>
+                        <tr>
+                            <td class="table__top-left">Listar(GET) Actualizar(PUT) Eliminar(DELETE)</td>
+                            <td class="table__top-right table__right"><a href="api/personajes/">api/personajes/</a><span class="down"></span></td>
+                        </tr>
+                        <tr>
+                            <td>Adicionar(POST)</td>
+                            <td class="table__right"><a href="api/personajes/add/">api/personajes/add/</a><span class="up"></span></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </article>
+            <!-- /*segunda tabla*/ -->
+        <article class="api-urls--card">
+            <div class="main-peliculas-table">
+                <p class="peliculas-table--title">Peliculas</p>
+                <div class="peliculas-table-container">
+                    <table>
+                        <tr>
+                            <td class="table__top-left">Listar(GET) Actualizar(PUT) Eliminar(DELETE)</td>
+                            <td class="table__top-right table__right"><a href="api/peliculas/">api/peliculas/</a></td>
+                        </tr>
+                        <tr>
+                            <td>Adicionar(POST)</td>
+                            <td class="table__right"><a href="api/peliculas/add/">api/peliculas/add/</a></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </article>
+        <!-- /*Tercera tabla planetass*/ -->
+        <article class="api-urls--card">
+            <div class="main-planetas-table">
+                <p class="planetas-table--title">Planetas</p>
+                <div class="planetas-table-container">
+                    <table>
+                        <tr>
+                            <td class="table__top-left">Listar(GET) Actualizar(PUT) Eliminar(DELETE)</td>
+                            <td class="table__top-right table__right"><a href="api/planetas/">api/planetas/</a>   <span class="down"></span></td>
+                        </tr>
+                        <tr>
+                            <td>Adicionar(POST)</td>
+                            <td class="table__right"><a href="api/planetas/add/">api/planetas/add/</a><span class="up"></span></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </article>
+    </section>
+</section>
+    
+    
+    </main>
+    <footer>
+        <section class="left">
+            <ul>
+                <li><a href="https://www.linkedin.com/in/juandavidgiraldos/" target="_blank">Linkedin</a></li>
+                <li>
+                    <a href="https://github.com/Juanchoo055" target="_blank">Github</a></li>
+                <li>
+                    <a href="" target="_blank">Repositorio</a></li>
+            </ul>
+        </section>
+        <section class="right">
+            <img src="../../static/apistarwars/img/logostar.png" alt="Logo Star Wars">
+        </section>
+    </footer>
+</body>
+
+</html>
